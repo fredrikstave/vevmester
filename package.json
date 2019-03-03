@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:prod": "serve public -l ${PORT} -n",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fredrik Stave <fredrikstave@me.com>",
