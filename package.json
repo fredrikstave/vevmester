@@ -4,12 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:prod": "serve public -l ${PORT} -n",
+    "start:dev": "nodemon src/index.js",
+    "start:prod": "node src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fredrik Stave <fredrikstave@me.com>",
   "license": "MIT",
   "dependencies": {
-    "serve": "^10.1.2"
+    "knex": "^0.16.3",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-compose": "^4.1.0",
+    "koa-cors": "0.0.16",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^7.4.0",
+    "koa-useragent": "^1.2.0",
+    "pg": "^7.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
   }
 }
