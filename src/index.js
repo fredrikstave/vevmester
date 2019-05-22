@@ -28,3 +28,16 @@ app.use(router.routes());
 // app.use(cors());
 
 app.listen(PORT);
+// Available user agent payloads
+// {
+//   browser: 'IE',
+//   version: '10.0',
+//   os: 'Windows 8',
+//   platform: 'Microsoft Windows'
+// }
+// {
+//   browser: 'IE',
+//   version: '9.0',
+//   os: 'Windows 7',
+//   platform: 'Microsoft Windows'
+// }
