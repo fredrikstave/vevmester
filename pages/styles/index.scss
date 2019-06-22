@@ -1,0 +1,102 @@
+.mainPage {
+}
+
+.landingPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #262525;
+  height: 100vh;
+  width: 100%;
+
+  strong {
+    font-family: 'Archivo Black';
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #FF6F61;
+  }
+}
+
+.gridContainer {
+  // display: grid;
+  // grid-template-columns: 280px auto;
+  // grid-template-rows: auto;
+  // align-items: stretch;
+}
+
+
+.menuColumn {
+  background-color: #262525;
+  padding: 2rem 1rem;
+
+  strong {
+    font-family: 'Archivo Black';
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: #FF6F61;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0 8px 0;
+  }
+
+  ul > li a {
+    display: block;
+    padding: 4px 0;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+  }
+
+  @media (min-width: 48rem) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem;
+    text-align: left;
+  }
+}
+
+.contentColumn {
+  margin-left: 22rem;
+  margin-right: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  color: #2E2D2D;
+
+  p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+  }
+
+  h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+  }
+
+  li {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    margin-bottom: 24px;
+  }
+
+  a {
+    color: #FF6F61;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+}
