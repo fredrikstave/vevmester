@@ -26,17 +26,4 @@ const App = ({ Component, pageProps }) => (
   </MDXProvider>
 );
 
-App.getInitialProps = async ({ Component, ctx }) => {
-  try {
-    if (Component.getInitialProps) {
-      return { pageProps: await Component.getInitialProps(ctx) };
-    }
-
-    return {};
-  } catch (e) {
-    // @TODO Add error handling here? Like e24-pluss-landing-page
-    return {};
-  }
-};
-
 export default App;

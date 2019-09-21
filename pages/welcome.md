@@ -1,5 +1,5 @@
 ---
-layout: article/index
+layout: article
 title: Personvernerklæring
 description: Dette er en test side som inneholder en Personvernerklæring
 ---
