@@ -1,6 +1,7 @@
 ---
 layout: article/index
 title: Personvernerklæring
+description: Dette er en test side som inneholder en Personvernerklæring
 ---
 
 # Personvernerklæring
