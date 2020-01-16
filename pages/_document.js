@@ -15,9 +15,11 @@ class MyDocument extends Document {
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" />
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap" />
           </noscript>
-          <style>
-            {`body { margin: 0; }`}
-          </style>
+          <style>{`
+            body {
+              margin: 0;
+            }
+          `}</style>
         </Head>
         <body>
           <Main />

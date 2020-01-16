@@ -4,9 +4,9 @@
   "description": "My personal website written in NextJS",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
     "build": "next build",
     "start": "next start -- -p ${PORT}",
+    "start:dev": "next",
     "export": "npm run build && next export"
   },
   "repository": {

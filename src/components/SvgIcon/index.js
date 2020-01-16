@@ -8,11 +8,21 @@ export const MenuIcon = ({ className = '', ...props }) => (
   <svg viewBox="0 0 16 19" height="19" width="16" {...props}>
     <g>
       <g transform="translate(-288.000000, -21.000000)" className={className}>
-        <g id="Group" transform="translate(288.000000, 21.000000)">
-          <rect id="Rectangle" x="0" y="17" width="16" height="2"></rect>
-          <rect id="Rectangle" x="0" y="0" width="16" height="2"></rect>
-          <rect id="Rectangle" x="0" y="8.5" width="16" height="2"></rect>
+        <g transform="translate(288.000000, 21.000000)">
+          <rect x="0" y="17" width="16" height="2"></rect>
+          <rect x="0" y="0" width="16" height="2"></rect>
+          <rect x="0" y="8.5" width="16" height="2"></rect>
         </g>
+      </g>
+    </g>
+  </svg>
+);
+
+export const CloseIcon = ({ className = '', ...props }) => (
+  <svg width="20" height="20" viewBox="0 0 20 20" {...props}>
+    <g transform="translate(-284.000000, -20.000000)" className={className}>
+      <g transform="translate(284.000000, 20.000000)">
+        <path d="M17.9705627,0.807611845 L19.3847763,2.22182541 L11.3556118,10.2496118 L19.1923882,18.0857864 L17.7781746,19.5 L9.94161184,11.6636118 L2.41421356,19.1923882 L1,17.7781746 L8.52761184,10.2496118 L0.807611845,2.52943725 L2.22182541,1.11522369 L9.94161184,8.83561184 L17.9705627,0.807611845 Z" />
       </g>
     </g>
   </svg>
