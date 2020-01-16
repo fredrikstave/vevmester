@@ -2,14 +2,14 @@
   font-family: 'Helvetica Neue Condensed Bold';
   font-style: normal;
   font-weight: normal;
-  src: local('Helvetica Neue Condensed Bold'), url('/static/HelveticaNeueCondensedBold.woff') format('woff');
+  src: local('Helvetica Neue Condensed Bold'), url('/static/fonts/HelveticaNeueCondensedBold.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Helvetica Neue Condensed Black';
   font-style: normal;
   font-weight: normal;
-  src: local('Helvetica Neue Condensed Black'), url('/static/HelveticaNeueCondensedBlack.woff') format('woff');
+  src: local('Helvetica Neue Condensed Black'), url('/static/fonts/HelveticaNeueCondensedBlack.woff') format('woff');
 }
 
 .landingPage {

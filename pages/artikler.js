@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import styles from './styles/artikler.scss';
+import LeftMenu from '../src/components/LeftMenu';
 
 function Main() {
   return [
@@ -8,6 +8,7 @@ function Main() {
       <meta name="description" content="Showcase website" />
     </Head>,
     <main key="main-content">
+      <LeftMenu />
     </main>,
   ];
 }

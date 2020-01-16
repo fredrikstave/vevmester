@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Helvetica Neue Condensed Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Neue Condensed Bold'), url('/static/fonts/HelveticaNeueCondensedBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Neue Medium'), url('/static/fonts/HelveticaNeue-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Italic';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Neue Italic'), url('/static/fonts/HelveticaNeue-Italic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Neue'), url('/static/fonts/HelveticaNeue.woff') format('woff');
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-start;
+}
+
+.articleContainer {
+  padding: 12px 48px 0 92px;
+  margin-left: 275px;
+}
+
+.article {
+  max-width: 700px;
+}
+
+.title {
+  font-family: 'Helvetica Neue Condensed Bold', sans-serif;
+  font-size: 92px;
+  line-height: 88px;
+  margin: 48px 0 20px;
+  display: block;
+}
+
+.lead {
+  display: block;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 32px;
+  margin: 0 0 20px;
+}
+
+.byline {
+  display: block;
+  font-family: 'Helvetica Neue Italic', sans-serif;
+  font-size: 16px;
+  margin: 0 0 64px;
+}
+
+.paragraph {
+  display: block;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.heading {
+  font-family: 'Helvetica Neue Condensed Bold';
+  font-size: 32px;
+  margin: 24px 0 12px;
+}
