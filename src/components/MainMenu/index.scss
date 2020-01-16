@@ -54,12 +54,3 @@
     fill: #FFF;
   }
 }
-
-@media screen and (max-width: 480px) {
-  .menuItems {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: center;
-    height: 60%;
-  }
-}
