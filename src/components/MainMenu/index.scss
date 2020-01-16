@@ -54,3 +54,15 @@
     fill: #FFF;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .menuItems {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .menuItem {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
