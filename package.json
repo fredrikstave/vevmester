@@ -30,7 +30,7 @@
     "next": "^9.2.0",
     "next-mdx-enhanced": "^2.4.0",
     "next-useragent": "^2.0.1",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "postcss": "^7.0.26",
     "postcss-css-variables": "^0.14.0",
     "postcss-loader": "^3.0.0",
