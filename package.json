@@ -1,7 +1,7 @@
 {
   "name": "vevmester",
   "version": "0.2.0",
-  "description": "My personal website written in NextJS",
+  "description": "The personal website of Fredrik Stave",
   "main": "index.js",
   "scripts": {
   },
