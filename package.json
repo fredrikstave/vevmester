@@ -1,0 +1,35 @@
+{
+  "name": "vevmester",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "The personal website of Fredrik Stave",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fredrikstave/vevmester.git"
+  },
+  "keywords": [
+    "Astro",
+    "React",
+    "Signal"
+  ],
+  "author": "Fredrik Stave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fredrikstave/vevmester/issues"
+  },
+  "homepage": "https://github.com/fredrikstave/vevmester#readme",
+  "dependencies": {
+    "@astrojs/check": "^0.3.1",
+    "@astrojs/rss": "^3.0.0",
+    "@astrojs/sitemap": "^3.0.3",
+    "astro": "^3.6.4",
+    "typescript": "^5.3.2"
+  }
+}

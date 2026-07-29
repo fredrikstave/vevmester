@@ -1,0 +1,16 @@
+body {
+    background-color: var(--background-color);
+    font: 'Gill Sans' ;
+    color: var(--text-color);
+}
+h1 {
+    font-family: 'Gill Sans';
+    color: var(--accent-color);
+}
+h2, h3, h4, h5, h6 {
+    font-family: 'Gill Sans';
+    color: var(--color-blue);
+}
+::selection {
+    background: var(--text-selection-color)
+}
