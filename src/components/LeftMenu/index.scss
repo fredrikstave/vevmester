@@ -1,0 +1,83 @@
+@font-face {
+  font-family: 'Helvetica Neue Condensed Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Neue Condensed Bold'), url('/static/fonts/HelveticaNeueCondensedBold.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Helvetica Neue Condensed Black';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Helvetica Neue Condensed Black'), url('/static/fonts/HelveticaNeueCondensedBlack.woff') format('woff');
+}
+
+.title {
+  display: block;
+  font-family: 'Archivo Black';
+  font-size: 28px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #FF6F61;
+  padding: 48px 16px 12px;
+}
+
+.leftMenu {
+  background-color: #262525;
+  width: 275px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.menu {
+  background-color: #262525;
+  height: 60px;
+  width: 100%;
+}
+
+.menuItems {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+}
+
+.menuItem {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  font-family: 'Helvetica Neue Condensed Bold', Helvetica, sans-serif;
+  font-size: 24px;
+  margin-top: 24px;
+  margin-right: 8px;
+  margin-left: 16px;
+  height: 50px;
+  color: #FF6F61;
+  text-decoration: none;
+  transition: color 100ms ease-in-out;
+  border-right: 4px solid transparent;
+}
+
+.menuItemActive {
+  border-color: #FF6F61;
+}
+
+.menuText {
+  display: inline-block;
+}
+
+.ghIcon {
+  height: 40px;
+  width: 40px;
+  fill: #FF6F61;
+  transition: fill 100ms ease-in-out;
+}
+
+.menuItem:hover {
+  color: #FFF;
+
+  .ghIcon {
+    fill: #FFF;
+  }
+}
